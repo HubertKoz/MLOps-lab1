@@ -7,7 +7,9 @@ authors = [
     { name = "Hubert", email = "h.kozierkiewicz@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pre-commit>=4.6.2",
+]
 
 [project.scripts]
 lab1 = "lab1:main"
